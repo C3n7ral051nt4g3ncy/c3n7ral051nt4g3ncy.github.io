@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #2E2F3E, #1B1C28); 
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    Overflow-x: hidden;
+   
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;   
+    padding: 0 20px; 
+    flex: 1; 
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.2em;
+}
+
+main {
+    flex: 1;
+    padding: 50px 20px; 
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.center-content .avatar,
+.center-content .contact-info {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#welcome-message {
+    text-align: center;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.description {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.bio {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 1em;
+}
+
+.bio-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.bio-list li {
+    margin: 10px 0;
+}
+
+.bio a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.bullet-point {
+    margin: 20px 0;
+}
+
+.picture_link {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.picture_link img {
+    width: 66px;
+    height: 66px;
+}
+
+.main-logo img {
+    width: 199px;
+    height: 166px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.footer-text {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #ffffff;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1, h2 {
+    color: #ffffff;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+    font-size: 2.0em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.footer-img {
+    width: 33px !important;
+    height: 33px !important;
+    margin: 0 10px;
+}
+
+table {
+    max-width: 800px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #444;
+}
+
+tr:nth-child(even) {
+    background-color: #2E2F3E;
+}
+
+tr:hover {
+    background-color: #555;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.contact p span {
+    color: #ffffff;
+}
+
+.service {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact p {
+    font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+.talk {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.talk-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.talk-description {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.embed-container iframe,
+.embed-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
