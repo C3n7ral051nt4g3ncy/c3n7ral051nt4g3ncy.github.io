@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,22 +19,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="whoami.html">WhoAmI</a>
-            <a href="osint.html">OSINT Projects</a>
-            <a href="research.html">Research</a>
-            <a href="media.html">Media</a>
-            <a href="talks.html">Talks</a>
-            <a href="ctfs.html">CTFs</a>
-            <a href="services.html">My Services</a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="whoami.html">WhoAmI</a>
+                <a href="osint.html">OSINT Projects</a>
+                <a href="research.html">Research</a>
+                <a href="media.html">Media</a>
+                <a href="talks.html">Talks</a>
+                <a href="ctfs.html">CTFs</a>
+                <a href="services.html">My Services</a>
+            </div>
         </nav>
     </header>
-        <div class="center-content">
-            <h1 id="projects-title">My OSINT Projects</h1>
-            <div class="table-container">
+
+    <main class="container">
+        <h1 id="projects-title">My OSINT Projects</h1>
+        <div class="table-container">
             <table>
                 <thead>
                     <tr>
@@ -47,7 +53,8 @@
                     <tr>
                         <td>Social Media</td>
                         <td>Masto OSINT Tool</td>
-                        <td>Python tool to get intelligence on a user and find the user across all Mastodon servers.</td>
+                        <td>Python tool to get intelligence on a user and find the user across all Mastodon servers.
+                        </td>
                         <td><a href="https://github.com/C3n7ral051nt4g3ncy/Masto" target="_blank">Visit</a></td>
                     </tr>
                     <tr>
@@ -65,26 +72,31 @@
                     <tr>
                         <td>Username Enumeration</td>
                         <td>WhatsMyName Python</td>
-                        <td>WhatsMyName in Python, with .html report generation.*Particularly useful when WhatsMyName is down.</td>
-                        <td><a href="https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python" target="_blank">Visit</a></td>
+                        <td>WhatsMyName in Python, with .html report generation.*Particularly useful when WhatsMyName is
+                            down.</td>
+                        <td><a href="https://github.com/C3n7ral051nt4g3ncy/WhatsMyName-Python" target="_blank">Visit</a>
+                        </td>
                     </tr>
                     <tr>
                         <td>Sports Tracking</td>
                         <td>JustTrakEM</td>
-                        <td>Found a weakness in Sports Tracker App, JustTrackEM python script finds users based on their full names.</td>
+                        <td>Found a weakness in Sports Tracker App, JustTrackEM python script finds users based on their
+                            full names.</td>
                         <td><a href="https://github.com/C3n7ral051nt4g3ncy/JustTrakEM" target="_blank">Visit</a></td>
                     </tr>
                     <tr>
                         <td>Bookmarklets</td>
                         <td>OSINT Bookmarklets</td>
                         <td>Created Bookmarklets for fast search engines search and social networks.</td>
-                        <td><a href="https://github.com/C3n7ral051nt4g3ncy/OSINT-Bookmarklets" target="_blank">Visit</a></td>
+                        <td><a href="https://github.com/C3n7ral051nt4g3ncy/OSINT-Bookmarklets" target="_blank">Visit</a>
+                        </td>
                     </tr>
                     <tr>
                         <td>Email Intelligence</td>
                         <td>ProtIntelligence</td>
                         <td>Python tool that helps to find intelligence on Protonmail users.</td>
-                        <td><a href="https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence" target="_blank">Visit</a></td>
+                        <td><a href="https://github.com/C3n7ral051nt4g3ncy/Prot1ntelligence" target="_blank">Visit</a>
+                        </td>
                     </tr>
                     <tr>
                         <td>Social Media</td>
@@ -95,7 +107,8 @@
                     <tr>
                         <td>Artificial Intelligence</td>
                         <td>PCT - People Count Tool</td>
-                        <td>People Count Tool uses AI with YOLOv5, which is a model in the You Only Look Once (YOLO) family of computer vision models</td>
+                        <td>People Count Tool uses AI with YOLOv5, which is a model in the You Only Look Once (YOLO)
+                            family of computer vision models</td>
                         <td><a href="https://github.com/C3n7ral051nt4g3ncy/PCT" target="_blank">Visit</a></td>
                     </tr>
                     <tr>
@@ -107,24 +120,30 @@
                     <tr>
                         <td>Maps</td>
                         <td>Weapons Tracking Map</td>
-                        <td>Made a Google Map to track firearms seen, used, and robbed during the French 2023 riots. Map viewed over 160,000 Times</td>
-                        <td><a href="https://www.google.com/maps/d/u/0/viewer?mid=1r7VfqEyRl7refrnvdsJxuJBNjrwV4LI&g_ep=CAESCTExLjg2LjQwMBgAIN1iKgg0NzA2ODYxNUICRlI%3D&shorturl=1&ll=47.08796634941123%2C3.3663649499999693&z=7" target="_blank">Visit</a></td>
+                        <td>Made a Google Map to track firearms seen, used, and robbed during the French 2023 riots. Map
+                            viewed over 160,000 Times</td>
+                        <td><a href="https://www.google.com/maps/d/u/0/viewer?mid=1r7VfqEyRl7refrnvdsJxuJBNjrwV4LI&g_ep=CAESCTExLjg2LjQwMBgAIN1iKgg0NzA2ODYxNUICRlI%3D&shorturl=1&ll=47.08796634941123%2C3.3663649499999693&z=7"
+                                target="_blank">Visit</a></td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </main>
+
     <footer>
         <a href="https://github.com/C3n7ral051nt4g3ncy" class="picture_link" target="_blank">
             <img src="assets/images/github.png" title="GitHub" alt="GitHub icon linking to profile" class="footer-img">
         </a>
         <a href="https://www.linkedin.com/in/centralosintagency/" class="picture_link" target="_blank">
-            <img src="assets/images/linkedin.png" title="LinkedIn" alt="LinkedIn icon linking to profile" class="footer-img">
+            <img src="assets/images/linkedin.png" title="LinkedIn" alt="LinkedIn icon linking to profile"
+                class="footer-img">
         </a>
         <a href="https://x.com/osint_tactical" class="picture_link" target="_blank">
-            <img src="assets/images/twitterx.png" title="X (Twitter)" alt="X (Twitter) icon linking to profile" class="footer-img">
+            <img src="assets/images/twitterx.png" title="X (Twitter)" alt="X (Twitter) icon linking to profile"
+                class="footer-img">
         </a>
         <div class="footer-text">2024 - Made by C3n7ral051nt4g3ncy (@OSINT_Tactical)</div>
     </footer>
 </body>
+
 </html>

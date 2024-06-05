@@ -27,12 +27,25 @@ header {
 nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 10px;
     background-color: transparent;
+    position: relative;
 }
 
-nav a {
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
     color: #ffffff;
     text-decoration: none;
     font-family: 'Share Tech Mono', monospace;
@@ -208,9 +221,24 @@ a {
 }
 
 @media (max-width: 600px) {
-    nav {
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
         flex-direction: column;
         gap: 10px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #1B1C28;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 
     h1 {
@@ -276,4 +304,3 @@ a {
     width: 100%;
     height: 100%;
 }
-
