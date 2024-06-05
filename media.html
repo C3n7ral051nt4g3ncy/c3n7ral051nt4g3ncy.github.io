@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,19 +19,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="whoami.html">WhoAmI</a>
-            <a href="osint.html">OSINT Projects</a>
-            <a href="research.html">Research</a>
-            <a href="media.html">Media</a>
-            <a href="talks.html">Talks</a>
-            <a href="ctfs.html">CTFs</a>
-            <a href="services.html">My Services</a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="whoami.html">WhoAmI</a>
+                <a href="osint.html">OSINT Projects</a>
+                <a href="research.html">Research</a>
+                <a href="media.html">Media</a>
+                <a href="talks.html">Talks</a>
+                <a href="ctfs.html">CTFs</a>
+                <a href="services.html">My Services</a>
+            </div>
         </nav>
     </header>
+
     <main>
         <h1 id="media-title">Media Articles on my work</h1>
         <div class="table-container">
@@ -46,77 +52,96 @@
                     <tr>
                         <td>Wired (USA)</td>
                         <td>Online Sleuths Are Using Face Recognition to ID Russian Soldiers.</td>
-                        <td><a href="https://www.wired.com/story/facial-recognition-identify-russian-soldiers/" target="_blank">Read Article</a></td>
+                        <td><a href="https://www.wired.com/story/facial-recognition-identify-russian-soldiers/"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>Washington Examiner (USA)</td>
                         <td>Identities of Russian Soldiers revealed through Facial Recognition Technology.</td>
-                        <td><a href="https://www.washingtonexaminer.com/news/1455522/identities-of-russian-soldiers-revealed-through-facial-recognition-technology/" target="_blank">Read Article</a></td>
+                        <td><a href="https://www.washingtonexaminer.com/news/1455522/identities-of-russian-soldiers-revealed-through-facial-recognition-technology/"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>La Tribune (France)</td>
                         <td>Open Source Intelligence (OSINT): Can French excellence still be strengthened?.</td>
-                        <td><a href="https://www.latribune.fr/opinions/tribunes/renseignement-de-source-ouverte-osint-l-excellence-francaise-peut-elle-encore-etre-renforcee-956805.html" target="_blank">Read Article</a></td>
+                        <td><a href="https://www.latribune.fr/opinions/tribunes/renseignement-de-source-ouverte-osint-l-excellence-francaise-peut-elle-encore-etre-renforcee-956805.html"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>Rusi (Royal United Services Institute), UK</td>
                         <td>The Future of Open Source Intelligence for UK National Security.</td>
-                        <td><a href="https://static.rusi.org/330_OP_FutureOfOpenSourceIntelligence_FinalWeb0.pdf" target="_blank">Read Article</a></td>
+                        <td><a href="https://static.rusi.org/330_OP_FutureOfOpenSourceIntelligence_FinalWeb0.pdf"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>GIJN (Global Investigative Journalism Network), USA</td>
                         <td>Facial Recognition Made Easy by Henk van Ess.</td>
-                        <td><a href="https://gijn.org/resource/facial-recognition-made-easy/" target="_blank">Read Article</a></td>
+                        <td><a href="https://gijn.org/resource/facial-recognition-made-easy/" target="_blank">Read
+                                Article</a></td>
                     </tr>
                     <tr>
                         <td>Belarussian Association of Journalists (Belarus)</td>
                         <td>Методы Хенка ван Эсса: Простые способы распознавания лиц.</td>
-                        <td><a href="https://baj.media/be/karysnae/sposoby-raspoznavaniya-lic-instrumenty-dlya-jurnalistov/" target="_blank">Read Article</a></td>
+                        <td><a href="https://baj.media/be/karysnae/sposoby-raspoznavaniya-lic-instrumenty-dlya-jurnalistov/"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>Next (France)</td>
                         <td>Facial Recognition to combat the war in Ukraine by Jean-March Manach.</td>
-                        <td><a href="https://next.ink/2001/la-reconnaissance-faciale-pour-combattre-guerre-en-ukraine/" target="_blank">Read Article</a></td>
+                        <td><a href="https://next.ink/2001/la-reconnaissance-faciale-pour-combattre-guerre-en-ukraine/"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>RFI (France)</td>
                         <td>Facial Recognition in time of war according to Clearview AI.</td>
-                        <td><a href="https://www.rfi.fr/fr/technologies/20220316-la-reconnaissance-faciale-en-temps-de-guerre-selon-clearview" target="_blank">Read Article</a></td>
+                        <td><a href="https://www.rfi.fr/fr/technologies/20220316-la-reconnaissance-faciale-en-temps-de-guerre-selon-clearview"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>Yahoo News</td>
                         <td>French company identifies Russian soldiers in Ukraine using Facial Recognition.</td>
-                        <td><a href="https://web.archive.org/web/20220312230441/https://fr.news.yahoo.com/société-française-identifie-soldats-russes-135210413.html" target="_blank">Read Article</a></td>
+                        <td><a href="https://web.archive.org/web/20220312230441/https://fr.news.yahoo.com/société-française-identifie-soldats-russes-135210413.html"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>TeleCinco (Spain)</td>
-                        <td>OSINT, la inteligencia que identifica a los militares que quieren asesinar a Volodímir Zelenski.</td>
-                        <td><a href="https://www.telecinco.es/noticias/internacional/osint-inteligencia-militar-abierta-identifica-soldados-guerra-rusia-ucrania-be5ma_18_3292021368.html" target="_blank">Read Article</a></td>
+                        <td>OSINT, la inteligencia que identifica a los militares que quieren asesinar a Volodímir
+                            Zelenski.</td>
+                        <td><a href="https://www.telecinco.es/noticias/internacional/osint-inteligencia-militar-abierta-identifica-soldados-guerra-rusia-ucrania-be5ma_18_3292021368.html"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>TeleCinco (Spain)</td>
-                        <td>Identificado un soldado ruso gracias a OSINT, la inteligencia militar abierta que prolifera con la invasión de Ucrania.</td>
-                        <td><a href="https://www.telecinco.es/noticias/ciencia-y-tecnologia/inteligencia-militar-alcance-prolifera-invasion-osint_18_3291497041.html" target="_blank">Read Article</a></td>
+                        <td>Identificado un soldado ruso gracias a OSINT, la inteligencia militar abierta que prolifera
+                            con la invasión de Ucrania.</td>
+                        <td><a href="https://www.telecinco.es/noticias/ciencia-y-tecnologia/inteligencia-militar-alcance-prolifera-invasion-osint_18_3291497041.html"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>AS (Spain)</td>
-                        <td>Qué es OSINT, la inteligencia artificial que identifica a los soldados rusos en Ucrania.</td>
-                        <td><a href="https://as.com/diarioas/2022/03/06/actualidad/1646582802_197827.html" target="_blank">Read Article</a></td>
+                        <td>Qué es OSINT, la inteligencia artificial que identifica a los soldados rusos en Ucrania.
+                        </td>
+                        <td><a href="https://as.com/diarioas/2022/03/06/actualidad/1646582802_197827.html"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>Sina (China)</td>
                         <td>7位俄军将领被传在乌克兰阵亡，实情如何？.</td>
-                        <td><a href="https://news.sina.cn/gn/2022-03-28/detail-imcwiwss8541952.d.html?from=wap" target="_blank">Read Article</a></td>
+                        <td><a href="https://news.sina.cn/gn/2022-03-28/detail-imcwiwss8541952.d.html?from=wap"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>Libération (France)</td>
-                        <td>La mort du général tchétchène Magomed Tushaev, bras droit de Kadyrov, a-t-elle été prouvée?</td>
-                        <td><a href="https://www.liberation.fr/checknews/la-mort-du-general-tchetchene-magomed-tushaev-bras-droit-de-kadyrov-a-t-elle-ete-prouvee-20220324_WIOXV2Q5CNFHDNEZO76IKHDSZA/" target="_blank">Read Article</a></td>
+                        <td>La mort du général tchétchène Magomed Tushaev, bras droit de Kadyrov, a-t-elle été prouvée?
+                        </td>
+                        <td><a href="https://www.liberation.fr/checknews/la-mort-du-general-tchetchene-magomed-tushaev-bras-droit-de-kadyrov-a-t-elle-ete-prouvee-20220324_WIOXV2Q5CNFHDNEZO76IKHDSZA/"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>El Espanol (Spain)</td>
                         <td>Tensión y cargas policiales en Francia.</td>
-                        <td><a href="https://www.elespanol.com/mundo/20230501/tension-cargas-policiales-francia-convierte-protesta-macron/760424065_0.html" target="_blank">Read Article</a></td>
+                        <td><a href="https://www.elespanol.com/mundo/20230501/tension-cargas-policiales-francia-convierte-protesta-macron/760424065_0.html"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>Shanghai Oriental Newspaper (China)</td>
@@ -131,7 +156,8 @@
                     <tr>
                         <td>Mag'OSINT (France)</td>
                         <td>OSINT magazine of the French Economic War School (École de Guerre Économique).</td>
-                        <td><a href="https://www.aege.fr/global/gene/link.php?news_link=2023113354_mag-osint-13-aege.pdf&fg=1" target="_blank">Read Article</a></td>
+                        <td><a href="https://www.aege.fr/global/gene/link.php?news_link=2023113354_mag-osint-13-aege.pdf&fg=1"
+                                target="_blank">Read Article</a></td>
                     </tr>
                     <tr>
                         <td>UK-OSINT</td>
@@ -142,17 +168,21 @@
             </table>
         </div>
     </main>
+
     <footer>
         <a href="https://github.com/C3n7ral051nt4g3ncy" class="picture_link" target="_blank">
             <img src="assets/images/github.png" title="GitHub" alt="GitHub icon linking to profile" class="footer-img">
         </a>
         <a href="https://www.linkedin.com/in/centralosintagency/" class="picture_link" target="_blank">
-            <img src="assets/images/linkedin.png" title="LinkedIn" alt="LinkedIn icon linking to profile" class="footer-img">
+            <img src="assets/images/linkedin.png" title="LinkedIn" alt="LinkedIn icon linking to profile"
+                class="footer-img">
         </a>
         <a href="https://x.com/osint_tactical" class="picture_link" target="_blank">
-            <img src="assets/images/twitterx.png" title="X (Twitter)" alt="X (Twitter) icon linking to profile" class="footer-img">
+            <img src="assets/images/twitterx.png" title="X (Twitter)" alt="X (Twitter) icon linking to profile"
+                class="footer-img">
         </a>
         <div class="footer-text">2024 - Made by C3n7ral051nt4g3ncy (@OSINT_Tactical)</div>
     </footer>
 </body>
+
 </html>

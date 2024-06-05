@@ -20,16 +20,20 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="whoami.html">WhoAmI</a>
-            <a href="osint.html">OSINT Projects</a>
-            <a href="research.html">Research</a>
-            <a href="media.html">Media</a>
-            <a href="talks.html">Talks</a>
-            <a href="ctfs.html">CTFs</a>
-            <a href="services.html">My Services</a>
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="whoami.html">WhoAmI</a>
+                <a href="osint.html">OSINT Projects</a>
+                <a href="research.html">Research</a>
+                <a href="media.html">Media</a>
+                <a href="talks.html">Talks</a>
+                <a href="ctfs.html">CTFs</a>
+                <a href="services.html">My Services</a>
+            </div>
         </nav>
     </header>
+
     <main class="container">
         <h1 id="welcome-message">C3n7ral051nt4g3ncy&rsquo;s Website</h1>
         <div class="center-content">
@@ -63,6 +67,7 @@
             </a>
         </div>
     </main>
+
     <footer>
         <a href="https://github.com/C3n7ral051nt4g3ncy" class="picture_link" target="_blank">
             <img src="assets/images/github.png" title="GitHub" alt="GitHub icon linking to profile" class="footer-img">
@@ -75,5 +80,7 @@
         </a>
         <div class="footer-text">2024 - Made by C3n7ral051nt4g3ncy (@OSINT_Tactical)</div>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
