@@ -171,11 +171,12 @@ h2 {
 
 table {
     width: 100%;
+    max-width: none;
     border-collapse: collapse;
     margin: 20px 0;
     font-family: 'Share Tech Mono', monospace;
     color: #ffffff;
-    table-layout: fixed; 
+    table-layout: auto; 
 }
 
 th, td {
@@ -229,6 +230,21 @@ a {
         display: block;
     }
 
+    th, td {
+        padding: 10px;
+    }
+
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
     .nav-links {
         display: none;
         flex-direction: column;
@@ -255,21 +271,6 @@ a {
 
     p {
         font-size: 1em;
-    }
-
-    th, td {
-        padding: 10px;
-    }
-
-    .table-container {
-        width: 100%;
-        overflow-x: auto;
-    }
-
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
     }
 }
 
