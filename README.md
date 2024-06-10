@@ -21,7 +21,6 @@ c3n7ral051nt4g3ncy.github.io/
 │   │   ├── tactical-osint-academy.png
 │   │   ├── tactical.osint_at_work.png
 │   │   ├── osint_tactical.png
-│   │   ├── tactical.osint_cyber_CTF_results.png
 │   │   └── OSINTFR.png
 │   └── fonts/
 │       └── 
