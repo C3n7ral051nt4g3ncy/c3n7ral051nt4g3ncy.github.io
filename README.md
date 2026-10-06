@@ -61,4 +61,4 @@ For more information contact me at:
 
 ---
 
-2025 - Made by C3n7ral051nt4g3ncy (@OSINT_Tactical)
+2026 - Made by C3n7ral051nt4g3ncy (@OSINT_Tactical)
